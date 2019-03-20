@@ -1,0 +1,68 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    background: #F6E8EA;
+}
+.nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+    margin-right: 3vw;
+}
+nav ul div {
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+
+}
+.nav-bar {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #F45B69;
+    width: 100vw;
+    height: 10vh;
+}
+.nav {
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    height: 10vh;
+}
+main img {
+    width: 200px;
+    height: 150px;
+    margin-top: 2vh;
+}
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    border: 1px solid rgba(0,0,0,.3);
+    width: 15vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 2vh;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.3);
+    flex-direction: column;
+    background: white;
+}
+button {
+    border: 1px solid #F13030;
+    width: 10vw;
+    height: 4vh;
+    font-size: 1em;
+    font-family: 'Roboto Slab', serif;
+    background: #5A0001;
+    color: white;
+}
